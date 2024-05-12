@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- español-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Posicionamiento SEO -->
+    <meta name="description" content="Pan&Cia: descubre el sabor auténtico de nuestros productos horneados con amor y tradición. Desde deliciosos panes recién hechos hasta pasteles y dulces artesanales, cada bocado es una experiencia que te transportará a la calidez de casa. Únete a nuestra familia y disfruta de momentos dulces juntos.">
+    <meta name="keywords" content="panadería, pan rico, medialunas ricas, masa madre">
+    <!-- vincular con font awesome para íconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- poner el logo pequeño en la pestaña -->
+    <link rel="shortcut icon" href="./multimedia/logo.jpeg" type="image/x-icon">
+    <!-- vincular con Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- vincular con Animation WOW-->
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- vincular con CSS-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Pan&Cia</title>
+</head>
+<body>
+<header>
+        <!--nav bar inicio-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pan&Cia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-list" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/locales.html">Locales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    <!--nav bar final-->
+
+</header>
+
+<main>  
+<section>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./multimedia/index1-carusel-chipa.jpg" alt="panadería" class="mx-auto d-block" style="width:100%">
+                <div class="carousel-caption">
+                <h2>Chipa</h2>
+                <p>Crocante por fuera, tierno por dentro</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./multimedia/index1-carusel-chipa.jpg" alt="panadería" class="mx-auto d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h2>Facturas</h2>
+                    <p>Hechas 100% de manteca</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./multimedia/index1-carusel-pan.jpg" alt="panadería" class="mx-auto d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h2>Pan casero</h2>
+                    <p>Todas las variedades posibles</p>
+                </div>
+            </div>
+        </div>
+    <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+<!--Contenedor texto-->
+<section>
+<div class="container mt-3 cont-index"> 
+    <div class="wow animate__animated animate__bounceInUp">
+    <div class="card card-index">
+        <div class="card-body">
+            <h4>¡No te vas a arrepentir!</h4>
+            <p>Ven a descubrir la magia de nuestra panadería familiar! Te esperamos con los brazos abiertos para que disfrutes de una experiencia única llena de sabores tradicionales y calidez hogareña. Desde el aroma tentador de nuestros panes recién horneados hasta la dulzura irresistible de nuestros pasteles artesanales, cada visita es un viaje de deleite para tus sentidos.</p>     
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<!--Cierre contenedor texto-->
+<section class="cont-productos-index">
+    <div class="sec">
+        <h2 class="wow animate__animated animate__fadeIn">Nuestros productos</h2>
+    </div>
+    <!--contenedor galeria 2-->
+    <div class="container-fluid cont-productos-index2">
+        <div class="wow animate__animated animate__fadeIn animate__delay-1s">
+        <div class="row">
+            <article class="col-md-1 col-lg-3 productos-index2"><h3>Facturas</h3><img class="rounded" src="./multimedia/img1.jpg" class="rounded" alt="panadería" class="mx-auto d-block" style="width:100%"></article>
+            <article class="col-md-1 col-lg-3 productos-index2"><h3>Sándwiches</h3><img class="rounded" src="./multimedia/img2.jpg" class="rounded" alt="panadería" class="mx-auto d-block" style="width:100%"></article>
+            <article class="col-md-1 col-lg-3 productos-index2"><h3>Pastelería</h3><img class="rounded" src="./multimedia/img3.jpg" class="rounded" alt="panadería" class="mx-auto d-block" style="width:100%"></article>
+            <article class="col-md-1 col-lg-3 productos-index2"><h3>Eventos</h3><img class="rounded" src="./multimedia/img3.jpg" class="rounded" alt="panadería" class="mx-auto d-block" style="width:100%"></article>
+        </div>
+        </div>
+    </div>
+<!--Cierre contenedor galeria 2-->
+</section>
+
+<section>
+    <div class="sec">
+        <h2 class="wow animate__animated animate__fadeIn">Nosotros</h2>
+    </div>
+<!--Contenedor texto-->
+    <div class="container mt-3 cont-index"> 
+        <div class="wow animate__animated animate__bounceInUp">
+        <div class="card card-index">
+            <div class="card-body">
+                <h4>Calidad en cada bocado</h4>
+                <p>Somos una panadería y cafetería de tradición argentina que elabora sus prodcutos siguiendo las recetas familiares, utilizando las mejores materias primas y respetando cada uno de los procesos. Desde el aroma tentador de nuestros panes recién horneados hasta la dulzura irresistible de nuestros productos 100% artesanales, cada visita es un viaje de deleite para tus sentidos.</p>     
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Cierre contenedor texto-->
+</section>
+
+<section>
+    <div class="sec">
+        <h2 class="wow animate__animated animate__fadeIn">Te esperamos</h2>
+    </div>
+    <div class="container mt-3 cont-locales-index"> 
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="wow animate__animated animate__bounceInLeft">
+            <div class="card" style="width:400px">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6672208912296!2d-58.50181992353648!3d-34.63784895930281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9b0ef26fa25%3A0xd7b02f972b5c0a51!2sManzoni%2030%2C%20C1407ICB%20C1407ICB%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1713196529547!5m2!1ses!2sar" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                    <h4 class="card-title">Villa Luro</h4>
+                    <p class="card-text">Ciudad Autónoma de Buenos Aires</p>
+                    <a href="../pages/contacto.html" class="btn btn-primary">Visitar</a>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="wow animate__animated animate__bounceInLeft animate__delay-1s">
+            <div class="card" style="width:400px">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6672208912296!2d-58.50181992353648!3d-34.63784895930281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9b0ef26fa25%3A0xd7b02f972b5c0a51!2sManzoni%2030%2C%20C1407ICB%20C1407ICB%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1713196529547!5m2!1ses!2sar" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="card-body">
+                <h4 class="card-title">Próximamente - Plaza Irlanada</h4>
+                <p class="card-text">Ciudad Autónoma de Buenos Aires</p>
+                <a href="../pages/contacto.html" class="btn btn-primary">Visitar</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<!--Cierre página-->
+<footer>
+    <h8 class="wow animate__animated animate__rollIn">Todos los derechos reservados</h8>
+    <div class = "redes">
+        <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+        <a
+        href="https://api.whatsapp.com/send?phone=+5491135034928&text=Hola,%20quiero%20informaci%C3%B3n%20de%20los%20servicios%20en%20el%20local%20de%20Villa%20Luro."><i
+            class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</footer>
+
+<!--Subir de la página-->
+<a href="#" class="subir"><i class="fa-solid fa-upload"></i></a>
+
+<!-- inicia sript de WOW (antes de cerrar body)-->
+<script src="./utilidades/js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<!-- inicia sript de BS (antes de cerrar body)-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+</html>

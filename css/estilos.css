@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #C42316;
+  font-family: "Petrona", serif;
+  font-size: 18px;
+}
+.navbar a {
+  color: #F9F6EA !important;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: #DCD0B5 !important;
+}
+
+h1 {
+  color: #99745B;
+  font-family: "Petrona", serif;
+}
+
+h2 {
+  padding-top: 20px;
+  color: #99745B;
+  font-family: "Petrona", serif;
+}
+
+.carousel-caption h2 {
+  text-align: center;
+  color: #F9F6EA;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  text-align: center;
+  color: #F9F6EA;
+}
+
+.cont-index {
+  padding-bottom: 20px;
+}
+.cont-index h4 {
+  font-family: "Petrona", serif;
+}
+
+.cont-index p {
+  font-family: "DM Sans", sans-serif;
+}
+
+.card-index {
+  background-color: #F9F6EA;
+}
+
+.sec {
+  text-transform: uppercase;
+  background-color: #C42316;
+  text-align: center;
+}
+.sec h2 {
+  color: #F9F6EA;
+  padding: 20px;
+  font-family: "Petrona", serif;
+}
+
+.cont-productos-index {
+  padding-top: cal(20px -10px);
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: #F9F6EA;
+}
+
+.cont-productos-index2 h3 {
+  font-family: "DM Sans", sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.productos-index2 {
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.productos-index2 :hover {
+  transform: scale(0.9);
+  /* se reduce en un 10% */
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.cont-locales-index {
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  background-image: url(../multimedia/index1-carusel-chipa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  /*altura 400px*/
+}
+
+.cont-jumbotron {
+  background-color: #F9F6EA;
+}
+.cont-jumbotron h1 {
+  font-family: "Petrona", serif;
+  color: #99745B;
+}
+
+.cont-jumbotron p {
+  font-family: "Petrona", serif;
+  color: #99745B;
+}
+
+.productos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.productos h2 {
+  font-family: "Petrona", serif;
+  color: black;
+}
+
+.productos p {
+  font-family: "DM Sans", sans-serif;
+  color: black;
+}
+
+.card-productos a {
+  color: #99745B;
+  background-color: #F9F6EA;
+  border-color: #99745B;
+  font-family: "DM Sans", sans-serif;
+}
+
+.card-body-productos {
+  color: black;
+  font-family: "DM Sans", sans-serif;
+}
+
+.galeria {
+  color: #99745B;
+  text-align: center;
+}
+
+.productogaleria {
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.productogaleria :hover {
+  transform: scale(0.9);
+  /* se reduce en un 10% */
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.equipo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.equipo h3 {
+  text-align: center;
+}
+
+.nosotros {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.locales {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #99745B;
+}
+
+.table {
+  color: #99745B;
+}
+
+.servicios h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.cuadrado {
+  height: 100px;
+  width: 200px;
+  background-color: #F9F6EA;
+  border: 2px solid #99745B;
+  line-height: 100px;
+  color: #C42316;
+  text-align: center;
+  font-weight: "Petrona", serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0 auto;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.cuadrado:hover {
+  transform: scale(0.9);
+  background-color: #C42316;
+  color: #F9F6EA;
+  border-radius: 20px;
+}
+
+.contacto {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: #C42316;
+  border-color: #DCD0B5;
+}
+
+.btn:hover {
+  background-color: #F9F6EA;
+  border-color: #C42316;
+  color: #C42316;
+}
+
+footer {
+  background-color: #C42316;
+  color: #F9F6EA;
+  text-align: center;
+  padding: 20px;
+}
+footer .redes a {
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #F9F6EA;
+}
+footer .redes a :hover {
+  color: #99745B;
+}
+
+.subir {
+  width: 40px;
+  height: 40px;
+  background-color: #C42316;
+  text-decoration: none;
+  color: #F9F6EA;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.subir :hover {
+  color: #DCD0B5;
+}/*# sourceMappingURL=estilos.css.map */
