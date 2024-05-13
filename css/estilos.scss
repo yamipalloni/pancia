@@ -62,19 +62,8 @@ html{
 
 //** index **//
 
-h1{
-    color: $color3;
-    font-family: $font1;
-}
-
-h2{
-    padding-top: $size3;
-    color: $color3;
-    font-family: $font1;
-}
-
 .carousel-caption{
-    h2{text-align: center;
+    h1{text-align: center;
         color: $color4;
         font-weight: $bold1;
     }
@@ -97,6 +86,7 @@ h2{
 .cont-index{
     p{
         font-family: $font2;
+        color: $color7;
     }
 }
 
@@ -126,6 +116,7 @@ h2{
     padding-top: $size3;
     text-align: center;
     font-size: $size3;
+    color: $color7;
 }
 }
 
@@ -147,7 +138,7 @@ h2{
 
 
 //** Pag-Productos **// 
-.jumbotron{
+.jumbotron-productos{
     background-image: url(../multimedia/index1-carusel-chipa.jpg);
     background-size: cover;
     background-position: center;
@@ -157,6 +148,8 @@ h2{
 
 .cont-jumbotron{
     background-color: $color4;
+    background: linear-gradient(180deg,rgb(255, 254, 254) 0%,$color2 100%);
+    border-color: $color3 !important;
     h1{font-family: $font1;
         color:$color3;
     }
@@ -196,10 +189,15 @@ h2{
         font-family: $font2;
 }
 
-
-.galeria{
-    color: $color3;
-    text-align: center;
+.galeria-productos{
+    padding: $size3;
+    background-color: $color4;
+    h3{
+        color: $color3;
+        font-family: $font2;
+        padding: $size3;
+        text-align: center
+    }
 }
 
 .productogaleria{
@@ -213,42 +211,99 @@ h2{
 }
 
 
+//** Pag-Nosotros **// 
+.jumbotron-nosotros{
+    background-image: url(../multimedia/index1-carusel-pan.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /*altura 400px*/
+}
 
-//** Pag-Nosotros e index **// 
-.equipo{
-    padding-top: $size3;
-    padding-bottom: $size3;
-    h3{text-align: center;
+        //** .cont-jumbotron // se repite
+
+.card-nosotros{
+    padding: $size3;
+    h2{
+        font-family: $font1;
+        color: $color7;
     }
 }
 
-//** Pag-Nosotros **//
-.nosotros{
-    padding-top: $size3;
-    padding-bottom: $size3;
+.card-nosotros{
+    p{
+        font-family: $font2;
+        color: $color7;
+    }
+}
+
+.card-body-nosotros{
+    background-color: $color4;
+    background: linear-gradient(180deg,rgb(255, 254, 254) 0%,$color4 100%),
 }
 
 
-
-
 //** Pag-Locales **//
+
+.jumbotron-locales{
+    background-image: url(../multimedia/jumbotron.locales.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /*altura 400px*/
+}
+
+        //** .cont-jumbotron // se repite
+
 .locales{
     padding-top: $size3;
     padding-bottom: $size3;
-    color: $color3;
+    h2{
+        font-family: $font1;
+        color: $color7;
+    }
+}
+
+.locales{
+    p{
+        font-family: $font2;
+        color: $color7;
+    }
 }
 
 .table{
     color: $color3;
 }
 
+.sec-locales{
+    h3{padding: $size3;
+        font-family: $font1;}
+}
+
+.cont-locales{
+    align-items: center;
+    padding-bottom: $size3;
+    font-family: $font2;
+}
+
     //** Pag-Contacto **//
+
+.jumbotron-contacto{
+        background-image: url(../multimedia/jumbotron.locales.jpg);
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        /*altura 400px*/
+    }
+    
+            //** .cont-jumbotron // se repite
 
 .servicios{
     h2{padding-bottom: $size3;
         text-align: center;
     }
 }
+
 .cuadrado{
         height: calc($size4*2);
         width: calc($size4*4);
