@@ -99,7 +99,7 @@ html {
 }
 
 .jumbotron-productos {
-  background-image: url(../multimedia/index1-carusel-chipa.jpg);
+  background-image: url(../multimedia/index1-carusel-chipa.png);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -170,7 +170,7 @@ html {
 }
 
 .jumbotron-nosotros {
-  background-image: url(../multimedia/index1-carusel-pan.jpg);
+  background-image: url(../multimedia/index1-carusel-pan.png);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -196,7 +196,7 @@ html {
 }
 
 .jumbotron-locales {
-  background-image: url(../multimedia/jumbotron.locales.jpg);
+  background-image: url(../multimedia/jumbotron.locales.png);
   background-size: cover;
   background-position: center;
   height: auto;
@@ -233,10 +233,10 @@ html {
 }
 
 .jumbotron-contacto {
-  background-image: url(../multimedia/jumbotron.locales.jpg);
+  background-image: url(../multimedia/jumbotron.locales.png);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 400px;
   /*altura 400px*/
 }
 
