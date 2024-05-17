@@ -11,9 +11,9 @@ html {
 }
 
 .navbar {
-  background-color: #C42316;
+  background-color: #99745B;
   font-family: "Petrona", serif;
-  font-size: 18px;
+  font-size: 19px;
 }
 .navbar a {
   color: #F9F6EA !important;
@@ -54,11 +54,12 @@ html {
 
 .card-index {
   background-color: #F9F6EA;
+  background: linear-gradient(180deg, rgb(255, 254, 254) 0%, #F9F6EA 100%);
 }
 
 .sec {
   text-transform: uppercase;
-  background-color: #C42316;
+  background-color: #99745B;
   text-align: center;
 }
 .sec h2 {
@@ -102,7 +103,7 @@ html {
   background-image: url(../multimedia/index1-carusel-chipa.png);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 400px;
   /*altura 400px*/
 }
 
@@ -150,9 +151,10 @@ html {
 .galeria-productos {
   padding: 20px;
   background-color: #F9F6EA;
+  background: linear-gradient(180deg, rgb(255, 254, 254) 0%, #DCD0B5 100%);
 }
 .galeria-productos h3 {
-  color: #99745B;
+  color: black;
   font-family: "DM Sans", sans-serif;
   padding: 20px;
   text-align: center;
@@ -173,7 +175,7 @@ html {
   background-image: url(../multimedia/index1-carusel-pan.png);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 400px;
   /*altura 400px*/
 }
 
@@ -199,7 +201,7 @@ html {
   background-image: url(../multimedia/jumbotron.locales.png);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 400px;
   /*altura 400px*/
 }
 
@@ -218,12 +220,18 @@ html {
 }
 
 .table {
-  color: #99745B;
+  color: black;
+}
+
+.sec-locales {
+  background-color: #F9F6EA;
+  background: linear-gradient(180deg, rgb(255, 254, 254) 0%, #F9F6EA 100%);
 }
 
 .sec-locales h3 {
   padding: 20px;
   font-family: "Petrona", serif;
+  text-align: center;
 }
 
 .cont-locales {
@@ -233,16 +241,23 @@ html {
 }
 
 .jumbotron-contacto {
-  background-image: url(../multimedia/jumbotron.locales.png);
+  background-image: url(../multimedia/index1-carusel-facturas.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
   /*altura 400px*/
 }
 
+.servicios {
+  color: #99745B;
+}
 .servicios h2 {
   padding-bottom: 20px;
   text-align: center;
+}
+
+.servicios p {
+  color: #99745B;
 }
 
 .cuadrado {
@@ -285,7 +300,7 @@ html {
 }
 
 footer {
-  background-color: #C42316;
+  background-color: #99745B;
   color: #F9F6EA;
   text-align: center;
   padding: 20px;
@@ -301,10 +316,14 @@ footer .redes a :hover {
   color: #99745B;
 }
 
+.logo-footer {
+  padding: 20px;
+}
+
 .subir {
   width: 40px;
   height: 40px;
-  background-color: #C42316;
+  background-color: #99745B;
   text-decoration: none;
   color: #F9F6EA;
   position: fixed;
@@ -316,4 +335,8 @@ footer .redes a :hover {
 }
 .subir :hover {
   color: #DCD0B5;
+}
+
+.cierre {
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */

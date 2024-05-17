@@ -13,7 +13,7 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- poner el logo pequeño en la pestaña -->
-    <link rel="shortcut icon" href="../multimedia/logo.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="../multimedia/logo" type="image/x-icon">
     <!-- vincular con Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -31,7 +31,8 @@
         <!--nav bar inicio-->
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Pan&Cia</a>
+                <a class="navbar-brand" href="#"><img src="../multimedia/logo.navbar.png" alt="Pan&Cia" class="mx-auto d-block"
+                    style="width:30%"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -59,12 +60,6 @@
         <!--nav bar final-->
         <!--jumbotron y container inicia-->
         <div class="p-5 jumbotron-productos">
-            <div class="wow animate__animated animate__bounceIn">
-                <div class="container p-5 my-5 border cont-jumbotron">
-                <h1>Pan&Cia</h1>
-                <p>¡Bienvenidos a nuestra panadería familiar! Descubre el sabor auténtico de nuestros productos horneados con amor y tradición.</p>
-                </div>
-            </div>
         </div>
         <!--jumbotron y container fin-->
     </header>
@@ -212,14 +207,20 @@
     </main>
     <!--Cierre página-->
     <footer>
-        <h8 class="wow animate__animated animate__rollIn">Todos los derechos reservados</h8>
-        <div class = "redes">
-            <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
-            <a
-            href="https://api.whatsapp.com/send?phone=+5491135034928&text=Hola,%20quiero%20informaci%C3%B3n%20de%20los%20servicios%20en%20el%20local%20de%20Villa%20Luro."><i
+        <div class="row">
+            <div class="col-sm-1 col-md-6">
+                <img src="../multimedia/logo.navbar.png" alt="Pan&Cia" class="mx-auto d-block"
+                    style="width:20%">
+            </div>
+            <div class="col-sm-1 col-md-6 cierre">
+                <h8 class="wow animate__animated animate__rollIn">Todos los derechos reservados</h8>
+                <div class = "redes">
+                <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/depan_cia/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+5491135034928&text=Hola,%20quiero%20informaci%C3%B3n%20de%20los%20servicios%20en%20el%20local%20de%20Villa%20Luro."><i
                 class="fa-brands fa-whatsapp"></i></a>
-        </div>
+            </div>
+        </div> 
     </footer>
     <!--Subir de la página-->
     <a href="#" class="subir"><i class="fa-solid fa-upload"></i></a>
