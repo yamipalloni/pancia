@@ -101,12 +101,24 @@ html {
 
 .jumbotron-productos {
   background-image: url(../multimedia/index1-carusel-chipa.png);
+  animation: zoomIn 10s ease-in-out infinite;
   background-size: cover;
   background-position: center;
   height: 400px;
   /*altura 400px*/
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .cont-jumbotron {
   background-color: #F9F6EA;
   background: linear-gradient(180deg, rgb(255, 254, 254) 0%, #DCD0B5 100%);
@@ -173,12 +185,24 @@ html {
 
 .jumbotron-nosotros {
   background-image: url(../multimedia/index1-carusel-pan.png);
+  animation: zoomIn 10s ease-in-out infinite;
   background-size: cover;
   background-position: center;
   height: 400px;
   /*altura 400px*/
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .card-nosotros {
   padding: 20px;
 }
@@ -199,12 +223,24 @@ html {
 
 .jumbotron-locales {
   background-image: url(../multimedia/jumbotron.locales.png);
+  animation: zoomIn 10s ease-in-out infinite;
   background-size: cover;
   background-position: center;
   height: 400px;
   /*altura 400px*/
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .locales {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -242,12 +278,26 @@ html {
 
 .jumbotron-contacto {
   background-image: url(../multimedia/index1-carusel-facturas.jpg);
+  animation: zoomIn 10s ease-in-out infinite;
   background-size: cover;
   background-position: center;
   height: 400px;
   /*altura 400px*/
+  overflow-x: hidden;
+  background-attachment: fixed;
 }
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .servicios {
   color: #99745B;
 }
